@@ -68,3 +68,8 @@ def pil2tensor(image):
 NODE_CLASS_MAPPINGS = {
     "Batch Image Blend by Mask": REMADE_Batch_Image_Blend_Mask
 }
+
+# A dictionary that contains the friendly/humanly readable titles for the nodes
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "Batch Image Blend by Mask": "Batch Image Blend by Mask"
+}
