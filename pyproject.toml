@@ -1,0 +1,15 @@
+[project]
+name = "remade_nodes"
+description = "Nodes:Batch Image Blend by Mask"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/Pheat-AI/Remade_nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Remade_nodes"
+Icon = ""
